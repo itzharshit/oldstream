@@ -64,7 +64,7 @@
 
 Press the below button to  deploy on Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itzharshit/oldstream)
   
   
  <p><b>Available commands and features:</b>
