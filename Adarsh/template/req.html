@@ -27,37 +27,65 @@
     </div>
 
 
-    <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
-	<script>
-        const controls = [
-              'play-large',
-              'rewind',
-              'play', 
-              'fast-forward', 
-              'progress', 
-              'current-time',
-              'duration',
-              'mute',
-              'volume',
-              'captions',
-              'quality',
-              'settings',
-              'pip',
-              'airplay',
-              'download',
-              'fullscreen'
-            ];
-        document.addEventListener('DOMContentLoaded', () => {
-            const player = Plyr.setup('.player', { controls });
-        });
+<script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
 
-        const body = document.querySelector('body');
-        const footer = document.querySelector('footer');
-        const toogle = document.querySelector('.toogle');
-        toogle.onclick = () => {
-            body.classList.toggle('dark')
-            footer.classList.toggle('dark')
-        }
-     </script>
+<script>
+    var myFP = fluidPlayer(
+        'video-id', {
+ "layoutControls": {
+  "controlBar": {
+   "autoHideTimeout": 3,
+   "animated": true,
+   "autoHide": true,
+   "playbackRates": [
+    "x2",
+    "x1.5",
+    "x1",
+    "x0.5"
+   ]
+  },
+  "htmlOnPauseBlock": {
+   "html": null,
+   "height": null,
+   "width": null
+  },
+  "autoPlay": false,
+  "mute": true,
+  "allowTheatre": true,
+  "playPauseAnimation": true,
+  "playbackRateEnabled": true,
+  "allowDownload": true,
+  "playButtonShowing": true,
+  "fillToContainer": false,
+  "posterImage": "https://i.ibb.co/FngrKtw/IMG-20221103-154004-038.jpg"
+ },
+ "vastOptions": {
+  "adList": [
+   {
+    "roll": "preRoll",
+    "vastTag": "Https://acceptable.a-ads.com/2188456",
+    "adText": ""
+   },
+   {
+    "roll": "midRoll",
+    "vastTag": "Https://acceptable.a-ads.com/2188456",
+    "adText": ""
+   },
+   {
+    "roll": "postRoll",
+    "vastTag": "Https://acceptable.a-ads.com/2188456",
+    "adText": ""
+   },
+   {
+    "roll": "onPauseRoll",
+    "vastTag": "Https://acceptable.a-ads.com/2188456",
+    "adText": ""
+   }
+  ],
+  "adCTAText": false,
+  "adCTATextPosition": ""
+ }
+});
+</script>
 </body>
 </html>
