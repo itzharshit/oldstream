@@ -15,12 +15,9 @@
 
 
     <header>
-        <marquee bgcolor="#f7f305"
         <div class="toogle"></div>
-        <div id="file-name" class="cyber">
-            %s
+        <div id="file-name">
         </div>
-        </marquee>
     </header>
 
     <div class="container">
@@ -62,9 +59,12 @@
         });
 
         const body = document.querySelector('body');
-        const title = document.querySelector('#file-name');
         const footer = document.querySelector('footer');
         const toogle = document.querySelector('.toogle');
+        toogle.onclick = () => {
+            body.classList.toggle('dark')
+            footer.classList.toggle('dark')
+        }
     </script>
 </body>
 </html>
