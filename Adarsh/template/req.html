@@ -12,27 +12,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.9/plyr.css" />
     
-        									 
-<style>
-      marquee{
-      font-size: 30px;
-      font-weight: 800;
-      color: Blue;
-      font-family: sans-serif;
-      }
-    </style>
-    <style>
-      marquee{
-      font-size: 30px;
-      font-weight: 800;
-      color: Blue;
-      font-family: sans-serif;
-      }
-    </style>
 </head>
 
 <body>
-	
     <header>
 <div class="toogle"></div>
         <div id="file-name">
@@ -71,6 +53,10 @@
         const body = document.querySelector('body');
         const footer = document.querySelector('footer');
         const toogle = document.querySelector('.toogle');
-    </script>
+        toogle.onclick = () => {
+            body.classList.toggle('dark')
+            footer.classList.toggle('dark')
+        }
+     </script>
 </body>
 </html>
