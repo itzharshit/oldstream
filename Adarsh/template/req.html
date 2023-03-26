@@ -1,91 +1,589 @@
-<!--(c) adarsh-goel-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta property="og:image" content="https://i.ibb.co/M8S0Zzj/live-streaming.png" itemprop="thumbnailUrl">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>%s</title>
-    <link rel="stylesheet" type='text/css' href="https://drive.google.com/uc?export=view&id=1pVLG4gZy7jdow3sO-wFS06aP_A9QX0O6">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.7/plyr.css" />
-    
-</head>
 
+<!DOCTYPE html>
+<html lang="en" >
+<head>   
+  <meta charset="UTF-8">
+  <title>VideoIT - Stream Free Video and Movie Online Free</title>
+  <meta name="description" content="stream your videos and Movie in high-quality 1080p Free and get tools to boost engagement all in one place."/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'>
+  
+  <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css"/>
+
+
+ <!-- popup -->
+
+
+ <!-- popup -->
+
+
+
+
+</head>
 <body>
-    <header>
-<div class="toogle"></div>
-        <div id="file-name">
-            %s
-        </div>
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    <style>
+.alert {
+  padding: 20px;
+   border-radius: 5px;
+  background-color: #e7e0e0;
+  color: #817b8b;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
+    
+    
+    
+    
+    
+    
+
+<style>
+
+/* VARIABLES */
+/* BASE */
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  background-color:#efefef;
+  line-height: 1.4;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.containerbox {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 0 10px;
+}
+
+.site-content {
+  padding-top: 10px;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 55px;
+  line-height: 55px;
+  color: #ffffff;
+  background-color: #2962FF;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+.header__logo {
+  font-weight: 700;
+  padding: 0 25px;
+  float: left;
+}
+
+/* MENU */
+.menu {
+  float: left;
+}
+.menu a {
+  padding: 0 10px;
+}
+.menu a:hover {
+  color: #c5cae9;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 768px) {
+  .site-pusher,
+  .site-container {
+    height: 100%;
+  }
+
+  .site-container {
+    overflow: hidden;
+  }
+
+  .site-pusher {
+    transition-duration: 0.3s;
+    transform: translateX(0px);
+  }
+
+  .site-content {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 0;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .header {
+    position: static;
+  }
+
+  .header__icon {
+    position: relative;
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .header__icon:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1rem;
+    height: 0;
+    top: 16px;
+    left: 15px;
+    box-shadow: 0 10px 0 1px #fff, 0 16px 0 1px #fff, 0 22px 0 1px #fff;
+  }
+
+  .menu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #3849a2;
+    /*    overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;*/
+    width: 250px;
+    transform: translateX(-250px);
+  }
+  .menu a {
+    display: block;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #3f51b5;
+  }
+
+  .with--sidebar .site-pusher {
+    transform: translateX(250px);
+  }
+  .with--sidebar .site-cache {fi
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+  
+
+
+    .block {
+    
+      margin-top:3px;
+      margin-bottom:3px;
+      border-radius:4px;
+      flex-direction: row;
+  display: block;
+  width: auto;
+  border: none;
+  background-color: #2962FF;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-color: #ddd;
+  color: black;
+  }
+
+
+h3 {
+  text-align: center;
+  max-width: 320px;
+}
+
+.button-area {
+  margin: 5px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 320px;
+}
+.button-area a {
+  background: #ff9b05;
+  padding: 1em 2.4em;
+  font-size: .9em;
+  margin: 1em;
+  color: white;
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.button-area-line {
+  margin: 1px auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  max-width: 100%;
+}
+.button-area-line a {
+  background: #ff9b05;
+  padding: 1em;
+  font-size: .9em;
+  margin: .3em;
+  color: white;
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
+}
+</style>
+
+
+
+
+
+
+
+
+<!-- partial:index.partial.html -->
+
+
+<div class="site-container">
+  <div class="site-pusher">
+    
+    <header class="header">
+      
+      <a href="#" class="header__icon" id="header__icon"></a>
+      <a href="https://t.me/Filetolinkogbot" class="header__logo">Filetolinkogbot</a>
+      
+      <nav class="menu">
+      
+        <a href="https://t.me/Mdiskdownloadrobot">Mdisk Downloader Bot</a>
+         <a href="https://t.me/Downloader_TGBot">Movie Downloader Bot</a>
+         <a href="https://t.me/Filetolinkogbot">Online Video Stream Bot</a>
+          <a href="https://t.me/linkbypassrobot">Link ByPasser Bot</a>
+        <a href="https://t.me/Redxpromotionrobot">Contact</a>
+      </nav>
+      
     </header>
 
-    <div class="container">
-        <tag src="%s" class="player"></tag>
-    </div>
+    <div class="site-content">
+      <div class="containerbox">
+        
+        <p>Online Stream</p>
+        
+        <center>
+  <script type="text/javascript">
+	atOptions = {
+		'key' : '755401d05147eec3bc1bbee87cded27a',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplayformat.com/755401d05147eec3bc1bbee87cded27a/invoke.js"></scr' + 'ipt>');
+</script></center>
+<!--Video Player Start-->
+
+<div class="container">
+      
+        
+        <video id="myVideo" controls src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" width="100%" height="auto">
+  Your browser does not support the video tag.
+</video>
+       
+        
+        
+        
+</div>
+
+        <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+	<script>
+        const controls = [
+              'play-large',
+              'rewind',
+              'play', 
+              'fast-forward', 
+              'progress', 
+              'current-time',
+              'duration',
+              'mute',
+              'volume',
+              'captions',
+              'settings',
+              'pip',
+              'airplay',
+              'download',
+              'fullscreen'
+            ];
+        document.addEventListener('DOMContentLoaded', () => {
+            const player = Plyr.setup('.player', { controls });
+        });
+
+        const body = document.querySelector('body');
+        const footer = document.querySelector('footer');
+        const toogle = document.querySelector('.toogle');
+        toogle.onclick = () => {
+            body.classList.toggle('dark')
+            footer.classList.toggle('dark')
+        }
+          </script>
+
+<!--Video Player End-->
+ <center>
+  <script type="text/javascript">
+	atOptions = {
+		'key' : '755401d05147eec3bc1bbee87cded27a',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplayformat.com/755401d05147eec3bc1bbee87cded27a/invoke.js"></scr' + 'ipt>');
+</script></center>
+
+<!--Button Start-->
+<div class="con1">
+        
+        
+       <div class="button-area-line">
+        
+    
+        
+        <a id="demo2" 
+  href="https://www.w3docs.com/" class="block" ><i class="fa fa-play"></i> Stream MX </a>
+    
+      
+        <a id="demo1" 
+  href="https://www.w3docs.com/" class="block" ><i class="fa fa-play"></i> Stream VLC</a>
 
 
-<script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+       </div>
+        <a id="demo3" 
+  href="https://www.w3docs.com/" class="block" target="_blank" ><i class="fa fa-download"></i> Download File (open in New Tab)</a>
+  
+<!--Button End-->
+
+
+ <center>
+  <script type="text/javascript">
+	atOptions = {
+		'key' : '755401d05147eec3bc1bbee87cded27a',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitabledisplayformat.com/755401d05147eec3bc1bbee87cded27a/invoke.js"></scr' + 'ipt>');
+</script></center>
+
+<center><p><a href="https://getdatagyan.com/" target="_blank">Click to activate High Speed! Download (14Mbps)</a></p></center>
+
+
+
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Notice!</strong> Video Not Playing or Sound not comes? <a href="#C4" style="color:darkorange"><b>Get Help</b></a>
+</div>
+
+
+
+<!--get URL Start-->
+
+
+
+<script async="async" data-cfasync="false" src="//pl18060853.highperformancecpmgate.com/adc9bbee11824087e954fead49a2c281/invoke.js"></script>
+<div id="container-adc9bbee11824087e954fead49a2c281"></div>
+
+
+<!-- partial -->
+
+
+<p>
+<b>How to use ?</b><br>
+use our telegram bot <a href="https://t.me/Filetolinkogbot" style="color:darkorange"><b>file to link</b></a> forward any video file to the bot and get a direct stream link of file without downloading it.
+<BR>
+<br>
+<b>Disclamer</b><br>
+This website only provide service that help you play your video online without <a href="https://aliensold.com/t26zfdiea?key=8ee6d1cd8226b2bda8a34f261c4bd3d6" style="color:darkorange"> downloading</a>.<br>
+This website does not provide a storage/dissemination function.
+You can report the video that contains a problem like copyright, <a href="https://aliensold.com/t26zfdiea?key=8ee6d1cd8226b2bda8a34f261c4bd3d6" style="color:darkorange"> porn</a>, violence, etc, on <a href="https://t.me/Redxpromotionrobot" style="color:darkorange"> ReDX TG Bot</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="alert">
+  <p id="C4"><strong>Solution</strong> Video not playing ? possibly because your browser or the player doesn't support codec please download and watch. or use to stream in <a href="https://aliensold.com/t26zfdiea?key=8ee6d1cd8226b2bda8a34f261c4bd3d6" style="color:#3987e8"> <b>MX PLAYER</b></a> or <a href="https://aliensold.com/t26zfdiea?key=8ee6d1cd8226b2bda8a34f261c4bd3d6" style="color:#f78400"><b> VLC PLAYER</b></a> for batter experiance. 
+</div>
+  
+  <script>
+  
+  
+  
+  var url = window.location.href;
+// or window.location.href for current url
+var captured = /PIN=([^&]+)/.exec(url)[1];
+// Value is in [1] ('384' in our case)
+var result = captured ? captured : 'myDefaultValue';
+
+document.getElementById("myHeader").innerHTML = result;
+
+
+
+</script>
+
 
 <script>
-    var myFP = fluidPlayer(
-        'video-id', {
- "layoutControls": {
-  "controlBar": {
-   "autoHideTimeout": 3,
-   "animated": true,
-   "autoHide": true,
-   "playbackRates": [
-    "x2",
-    "x1.5",
-    "x1",
-    "x0.5"
-   ]
-  },
-  "htmlOnPauseBlock": {
-   "html": null,
-   "height": null,
-   "width": null
-  },
-  "autoPlay": false,
-  "mute": true,
-  "allowTheatre": true,
-  "playPauseAnimation": true,
-  "playbackRateEnabled": true,
-  "allowDownload": true,
-  "playButtonShowing": true,
-  "fillToContainer": false,
-  "posterImage": "https://i.ibb.co/FngrKtw/IMG-20221103-154004-038.jpg"
- },
- "vastOptions": {
-  "adList": [
-   {
-    "roll": "preRoll",
-    "vastTag": "Https://acceptable.a-ads.com/2188456",
-    "adText": ""
-   },
-   {
-    "roll": "midRoll",
-    "vastTag": "Https://acceptable.a-ads.com/2188456",
-    "adText": ""
-   },
-   {
-    "roll": "postRoll",
-    "vastTag": "Https://acceptable.a-ads.com/2188456",
-    "adText": ""
-   },
-   {
-    "roll": "onPauseRoll",
-    "vastTag": "Https://acceptable.a-ads.com/2188456",
-    "adText": ""
-   }
-  ],
-  "adCTAText": false,
-  "adCTATextPosition": ""
- }
-})
+document.getElementById("myAnchor1").href = result;
+document.getElementById("myAnchor2").href = resultvlc;
+document.getElementById("myAnchor3").href = result;
+document.getElementById("myAnchor4").href = result;
 </script>
+
+
+
+<script>
+var x = document.getElementById("myVideo");
+
+
+    x.src = result;
+
+  x.load();
+  
+</script>
+
+<!-- vlc -->
+<p id="demo1"></p>
+
+<script>
+let text1 = "vlc://";
+let text2 = result;
+let resultvlc = text1.concat("", text2);
+
+document.getElementById("demo1").href = resultvlc;
+
+
+alert(resultmx);
+
+</script>
+<!-- vlc -->
+
+<!-- mx -->
+<p id="demo2"></p>
+
+<script>
+let text11 = "intent:";
+let text22 = result;
+let text33 = "#Intent;package=com.mxtech.videoplayer.ad;S.title=Online streaming;end";
+let resultmx = text11.concat("", text22, "", text33);
+
+
+document.getElementById("demo2").href = resultmx;
+
+</script>
+<!-- mx -->
+
+<!-- SHORT URL Download -->
+<script>
+let text111 = "";
+let text222 = result;
+let resultdl = text111.concat("", text222);
+
+document.getElementById("demo3").href = resultdl;
+
+
+</script>
+<!-- SHORT URL Download -->
+
+
+        
+      
+      </div> <!-- END container -->
+    </div> <!-- END site-content -->
+    <div class="site-cache" id="site-cache"></div>
+  </div> <!-- END site-pusher -->
+</div> <!-- END site-container -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+
+  <!-- social ad bar -->
+
+<script type='text/javascript' src='//batheunits.com/ae/e0/63/aee06352ff3202f597645509a67b55f8.js'></script>
+    
+    <!-- social ad bar -->
+
+
+                   <script type="text/javascript">           
+               var app_url = 'https://gplinks.in/';
+               var app_api_token = '17076302fc1897aefa5a8de6028b14d29e0e8c44';
+               var app_advert = 2;
+               var app_domains = ["stream-manojthe.koyeb.app"];
+           </script>
+           <script src='//gplinks.in/js/full-page-script.js'></script>
+           
+
+
+  
 </body>
-</html>
+  </html>
